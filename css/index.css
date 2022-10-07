@@ -1,0 +1,203 @@
+*{
+    border:0;
+    outline: 0;
+}
+body{
+    background-color: #ffff;
+    font-family: 'poppins', sans-serif;
+}
+/* nav bar */
+nav{
+    margin: 30px 30px 0 30px;
+    display: flex;
+    justify-content: space-between;
+}
+nav .logo{
+    height: 40px;
+}
+.nav-items{
+    display: flex;
+    justify-content: space-evenly;
+    flex: 0.7;
+    margin-left: -10px;
+    margin-top: -15px;
+    margin-right: -80px;
+    
+}
+.nav-item{
+    font-weight: 300;
+    font-size: 17px;
+
+} 
+.nav-item:hover{
+    color: #FE5E35;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+nav .nav-end-img{
+    height: 40px;
+    margin-right: -50px;
+}
+/* intro section */
+.left-section{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.left-section h3{
+    font-weight: 200;
+    font-size: 35px;
+    margin-top: 30px;
+}
+
+.left-section img{
+    height: 6vh;
+    margin-left: 2px;
+}
+.left-section h1{
+    font-size: 64px;
+    font-weight: 800;
+    font-family:  'Fredoka One', cursive;
+    margin-top: -15px;
+}
+.sub-headlines{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+   
+   
+   
+}
+
+.sub-headline img{
+    background-color: #FE5E35;
+    height: 2vh;
+    border-radius: 25px;
+    padding: 6px;
+    margin-left: 100px;
+    margin-right: 10px;
+   margin-top: -70px;
+}
+.sub-headlines h5{
+    font-size: 18px;
+    margin-top: 10px;
+}
+.text{
+    margin-left: 5px;
+    font-size: 12px;
+    margin-right: 600px;
+    font-weight: 100;
+    color: #758283;
+    
+}
+.action-btns button{
+    margin-left: 5px;
+    margin-right: 13px;
+    margin-top: 30px;
+    background-color: #FE5E35;
+    color: #ffff;
+    padding: 12px 23px;
+    border-radius: 35px;
+    font-size: 17px;
+    font-weight: 400;
+}
+.right-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: -500px 30px 0 650px;
+}
+
+.discount{
+    height: 20vh;
+    margin-top: 155px;
+    margin-left: 50px;
+    position: absolute;
+    z-index: 2;
+   filter: drop-shadow(-4px 5px 1px rgb(125, 120, 120));
+}
+.headphone{
+    margin-top: -110px;
+    height: 75vh;
+    margin-left: 70px;
+    z-index: -1;
+    position: absolute;
+}
+.discount-content{
+    position: absolute;
+    z-index: 3;
+    margin-top: 150px;
+    margin-left: 80px;
+    color: #ffff;
+    
+}
+.discount-content h4{
+    font-size: 12px;
+    margin-top: 40px;
+    font-weight: 800;
+}
+.discount-content h1{
+font-size: 45px;
+font-weight: 500;
+font-family:  'Fredoka One', cursive;
+margin-top: -25px;
+margin-left: -10px;
+}
+.dots{
+    margin-left: 250px;
+    
+}
+
+.dot{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 380px;
+
+}
+ 
+.yellow-dot{
+    background-color: #FBD104;
+    border-radius: 50%;
+}
+.black-dot{
+    background-color: #000;
+    border-radius: 50%;
+}
+.tomato-dot{
+    background-color: #FE5E35;
+    border-radius: 50%;
+}
+
+.action-btn {
+    margin-top: 50px;
+    background-color: #FE5E35;
+    color: #ffff;
+    font-size: 17px;
+    margin-left: 230px;
+    padding: 3px 25px;
+    width: 160px;
+    height: 50px;
+    border-radius: 25px;
+
+}
+
+.action-btn:hover{
+    color: #000;
+    cursor: pointer;
+
+}
+.action-btns:hover{
+    color: #000;
+    cursor: pointer;
+
+}
+    
+
+
+
+    
+    
